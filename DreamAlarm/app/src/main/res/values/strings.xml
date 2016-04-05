@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DreamAlarm</string>
+    <string name="title_activity_alarm_list">AlarmListActivity</string>
+    <string-array name="snooze_interval_array">
+        <item>5 mins</item>
+        <item>10 mins</item>
+        <item>15 mins</item>
+        <item>20 mins</item>
+        <item>30 mins</item>
+    </string-array>
+    <string-array name="snooze_time_array">
+        <item>3 times</item>
+        <item>5 times</item>
+        <item>10 times</item>
+    </string-array>
+</resources>

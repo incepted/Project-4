@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/alarm_setting_second_dialog_main_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/alarm_setting_second_dialog_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="8:30"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/alarm_setting_second_dialog_ampm_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="AM"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/alarm_setting_sun_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="SON"
+            android:button="@null"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/alarm_setting_mon_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="MON"
+            android:button="@null"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/alarm_setting_tue_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="TUE"
+            android:button="@null"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/alarm_setting_wed_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="WED"
+            android:button="@null"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/alarm_setting_thurs_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="THU"
+            android:button="@null"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/alarm_setting_fri_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="FRI"
+            android:button="@null"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/alarm_setting_sat_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="SAT"
+            android:button="@null"
+            android:checked="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <CheckBox
+            android:id="@+id/alarm_setting_snooze_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Snooze"
+            android:padding="16dp"
+            android:checked="true"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Interval"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/alarm_setting_snooze_interval_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Repeat"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+            <Spinner
+                android:id="@+id/alarm_setting_snooze_time_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
